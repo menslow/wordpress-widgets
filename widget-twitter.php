@@ -12,7 +12,7 @@ class Widget_Twitter extends WP_Widget {
 	// widget actual processes
 	function Widget_Twitter() {
 		$widget_ops = array( 'description' => __('Add a twitter feed to your sidebar') );
-		parent::WP_Widget(false, $name = 'SMW Twitter Feed', $widget_ops);
+		parent::WP_Widget(false, $name = 'Twitter Feed', $widget_ops);
 	}
 
 	// outputs the content of the widget
